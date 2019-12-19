@@ -29,17 +29,46 @@ class App extends React.Component {
     };
 
     checkedClick (idx, e) {
-        console.log('idx', idx)
         // var idx = this.
+        console.log(">>>>> Clicked and what is idx " , idx);
         this.setState({checked: !this.state.checked})
-        var remove_arr = this.state.remove_arr
-        remove_arr.push(idx)
+        var copiedState = {...this.state}
+        var remove_arr =  copiedState.remove_arr;
+       
+        console.log(">>>>> Initial  2 State of remove array" , remove_arr);
+       
+        if(e.target.checked){
+           if(!remove_arr.includes(idx)) { 
+               remove_arr.push(idx) 
+            }; 
+        } else {
+
+
+            if(remove_arr.includes(idx) ){
+
+                remove_arr = remove_arr.filter(function(value, index, arr){
+
+                    return value !== idx;
+                
+                });
+            }
+
+        
+        
+        }
+
+        
+        console.log(">>>>> Changed State of remove array" , remove_arr);
+       
+        
         this.setState({
             remove_arr : remove_arr
         })
       }
 
     handleChange = idx => e => {
+
+        console.log(">>>>> Handle change idx " , idx)
         const { name, value } = e.target;
         const rows = [...this.state.rows];
         rows[idx] = {
@@ -50,34 +79,26 @@ class App extends React.Component {
             formData[field] = this.refs[field].value;
         }
         rows.push({ formData });
-    };
 
-    uuidv4 = () => {
-        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-          var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-          return v.toString(16);
+        this.setState({
+            rows
         });
-      }
-      
+    };
 
     handleAddRow = () => {
         const rows = [...this.state.rows];
         let formData = {};
-        if (this.refs === undefined && this.refs === {}){
-            console.log('When refs is empty.')
-        }
-        console.log('refs', this.refs)
         for (let field in this.refs) {
             formData[field] = this.refs[field].value;
         }
-        // const temp = {id: this.uuidv4(), data: formData}
-        // rows.push(temp)
-        
-        // // console.log(rows);
-        // this.setState({
-        //     rows: rows
-        // });
-        const item = {id: this.uuidv4(), data: formData};
+        rows.push({ formData });
+        // console.log(rows);
+        this.setState({
+            rows
+        });
+        const item = {
+            formData
+        };
         this.setState({
             rows: [...this.state.rows, item]
         });
@@ -89,8 +110,10 @@ class App extends React.Component {
         return b
     }
     handleRemoveRow = (idx) =>{
+
+
+        console.log(">>>Idx is " , idx);
         
-        console.log(idx)
         // var a = [1, 2, 3, 4, 9, 75, 0]
         // var idx1 = 4
         // var b = a.slice(0, idx1)
@@ -98,56 +121,46 @@ class App extends React.Component {
         // console.log(a.slice(0, idx1) + a.slice(idx1 + 1, a.length))
         // console.log(b.concat(c))
         var remove_arr = this.state.remove_arr.sort().reverse()
-        let temp_rows = this.state.rows
-        let rows_updated = []
-        // const temp_rows = []
-        console.log('temp_rows', temp_rows)
-
-        for(let i=0; i<remove_arr.length; i++){
-            temp_rows.splice(remove_arr[i],1);
-        }
-        console.log('temp_rows', temp_rows)
-
-        // for (let i=0; i<remove_arr.length; i++){
-        //     rows_updated = rows.filter((item, index) => index === i)
-            
-        // }
-        console.log('rows_updated', rows_updated)
-        console.log('remove_arr', remove_arr)
-
-        // var rows_updated = rows.filter((item, index) => index !== idx)
-        // var rows_updated = []
-
+        var rows = this.state.rows
+        var rows_updated = []
         var a = [1, 2]
         console.log(1 in a)
-        console.log(2 in a)
+        console.log(3 in a)
 
-        console.log(remove_arr)
-        // for (let i = 0; i < rows.length; i++) {
-        //     // const element = remove_arr[i];
-        //     if (remove_arr.some(e => e === i)){
-        //         console.log(i)
-        //     } else{
-        //         rows_updated.push(rows[i])
-        //         
-        //     }
-        //     // if 
-        //     // rows1 = this.arr_pop(element, rows1)
-        //     // console.log(rows1)
-        //     // rows.pop(element)
-        // }
-        this.state.remove_arr.splice();
-        this.state.rows.splice();
+        console.log(">>> Whats remove array set:" , remove_arr)
+        for (let i = 0; i < rows.length; i++) {
+            // const element = remove_arr[i];
+            if (!remove_arr.includes(i)){
+                
+                rows_updated.push(rows[i])
+            }
+            
+        }
+        console.log("Whats rows updated" , rows_updated);
+       // this.state.remove_arr.splice();
+       // this.state.rows.splice();
 
             this.setState({
             remove_arr : [],
-            rows:temp_rows,
+            rows:rows_updated,
    });
    console.log(this.state)
     };
 
+
+    shouldComponentUpdate(nextProps, nextState) {
+       console.log(">>> Should component update code!");
+        if (this.state.remove_arr !== nextState.remove_arr) {
+        return false;
+      } 
+        return true;
+      
+        
+      }
+
     render() {
-        console.log("*************rows*********", this.state.rows)
+
+        console.log(">>>>>>>>> Rerender is Happening");
         return (
             <div>
                 <div className="m-0 p-0 bgSchedulePage">
@@ -193,7 +206,7 @@ class App extends React.Component {
                                     <input type="button" className="btn  mr-3 btn-light border border-black btn-sm rounded"
                                         value="Add"  onClick={this.handleAddRow}/>
                                         <input type="button" className="btn  mr-3 btn-light border border-black btn-sm rounded"
-                                        value="Remove" onClick={this.handleRemoveRow.bind(this)}/>
+                                        value="Remove" onClick={this.handleRemoveRow}/>
                                     </div>
                                 </div>
                                 <form onSubmit={this.handleSubmit.bind(this)}>
@@ -207,7 +220,7 @@ class App extends React.Component {
                                                 </thead>
                                                 <tbody>
                                                     {this.state.rows.map((item, idx) => (
-                                                        <tr className="border-0" id="addr0" key={item.id}>
+                                                        <tr className="border-0" id="addr0" key={idx}>
                                                             <td className="p-2 pt-3">{idx+1}</td>
                                                             <td className="p-0 ">
                                                             
@@ -217,12 +230,12 @@ class App extends React.Component {
                                                                        <div className="my-auto">   
                                                                        <input
                                                                   type="checkbox"
-                                                                  id={item.id}
+                                                                  id={idx}
                                                                   ref="myCheckbox"
-                                                                  name={item.id}
+                                                                  name={this.state.idx}
                                                                 //   checked={this.state.idx}
-                                                                  checked={item.data.myCheckbox}
-                                                                  onChange={this.checkedClick.bind(this, item.id)}
+                                                                  checked={this.state.idx}
+                                                                  onChange={this.checkedClick.bind(this, idx)}
                                                                     // this.handleChange()}}
                                                                 //   onChange={this.handleChange}
                                                                                      />
