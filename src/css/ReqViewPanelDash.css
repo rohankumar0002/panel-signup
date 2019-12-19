@@ -1,0 +1,46 @@
+.pp_stl{
+    font-size: 13px;
+    color: #6c6c6c !important;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.cardstl{
+box-shadow: none;
+/* border: 0 !important; */
+}
+
+.img_panel{
+    width: 30px;
+    height: 30px;
+}
+
+.pan{
+    color: #04b6fd !important;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.pan_stl{
+    max-width: 11% !important;
+    border-bottom: 3px solid #04b6fd;
+    padding: 0px !important;
+    padding-bottom: 15px !important;
+}
+.ptextColor{
+    color:#2b81e8 !important;
+    font-weight: bold;
+}
+  .custom-scrollbar {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+  

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.links{
+    font-size: 13px !important;
+    font-weight: 600;
+    color: #4f4f4f !important;
+}
+.rpicon{
+    width: 22px;
+    height: 22px;
+}
+
+.input_search{
+    font-family: Montserrat-Bold;
+    padding:  0 44px 0 15px !important;
+    color: #999999 !important;
+    font-size: 14px !important;
+    
+}
+.search_icon{
+    align-items: center;
+    position: absolute;
+    color: #999999;
+    top: 34%;
+    right: 12.25rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  
+}
+.RPhead{
+    box-shadow: 2px 2px 4px #ddd;
+}
+.newnav{
+    padding-left: 30px !important;
+}
+
+

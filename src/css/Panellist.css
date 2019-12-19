@@ -1,0 +1,134 @@
+.panellistImg{
+    height: 60px;
+    width: 60px;
+}
+.panellistbg{
+    background-color: #fffdf0;
+    border: 1px solid #ddd;
+    justify-content: space-around;
+}
+.PanelTitle{
+    color: #7f7f7f;
+}
+.textColor{
+    color: #00adef !important;
+}
+.textIntColor{
+    color: #00adef !important;
+    border-bottom: 1px solid;
+}
+.panelBorder{
+    border: 1px solid ;
+}
+.circleDot{
+    font-size: 20px;
+    border: 1px solid white;
+    outline: 1px solid red;
+}
+.p_stl{
+    font-size: 12px;
+    color: #6c6c6c !important;
+    font-weight: 400;
+    margin-bottom: 5px !important;
+}
+.pld_stl{
+    font-size: 14px;
+    color: #6c6c6c !important;
+    font-weight: 400;
+    margin-bottom: 0px !important;
+    padding-top: 3px;
+
+}
+.Intsearch_icon{
+    align-items: center;
+    position: absolute;
+    color: #999999;
+    top: 6%;
+    right: 1.00rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.intputschl{
+    height: 30px !important;
+}
+.row_cls{
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
+    padding: 12px;
+}
+
+.sec_title{
+border-bottom: 1px solid rgba(0,0,0,.125);   
+}
+.border_stl{
+    border: 1px solid #ddd;
+    padding: 7px 11px;
+    font-size: 11px;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+.pnlintbtn{
+    color: #848484 !important;
+    border: 1px solid #848484 !important;
+    border-radius: 20px;
+    padding: 1px 11px;
+    font-size: 13px;
+    background: white;
+}
+.img_paneldash{
+    width: 35px;
+    height: 35px;
+}
+.pnlAlrtbg{
+    border: 1px solid #ddd;
+}
+.free_stl{
+    font-size: 15px !important;
+}
+.stl_bor_free{
+    border: 1px solid #ddd;
+    padding: 6px;
+    border-radius: 5px;
+}
+.feed_stl{
+    font-size: 14px;
+}
+.btn_sub{
+    color: #848484 !important;
+    border: 1px solid #848484 !important;
+    border-radius: 20px;
+    padding: 3px 20px;
+    font-size: 13px;
+    background: white;
+}
+.btnFree_sub{
+    color: #848484 !important;
+    border: 1px solid #848484 !important;
+    border-radius: 20px;
+    padding: 3px 15px;
+    font-size: 13px;
+    background: white;
+}
+.calschl_stl{
+color: #ff8800 !important;
+font-size: 20px !important;
+
+}
+
+.calcncl_stl{
+    color: #ff003d !important;
+    font-size: 20px !important;
+    }
+
+
+

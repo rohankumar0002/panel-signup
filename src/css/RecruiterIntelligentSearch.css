@@ -1,0 +1,30 @@
+.dotIcon{
+    opacity: 0.7;
+}
+.textColor{
+    color: #00adef ;
+}
+.smallText{
+    font-size: 12px;
+}
+.headerText{
+    font-size: 18px;
+}
+.intel-stl{
+    padding: 100px 100px;
+}
+
+.intel-title{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 35px;
+}
+.search_icon_stl{
+    width: 17px;
+    height: 17px;
+    color: #495057;
+    position: absolute;
+    right: 31%;
+    top: 194px;
+}

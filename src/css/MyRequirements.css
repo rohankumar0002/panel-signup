@@ -1,0 +1,186 @@
+.skill{
+    color: #8b8b8b !important;
+    font-weight: bold;
+}
+.req{
+    color: black !important;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.req1{
+    font-size: 1rem;
+    color: #595959 !important;
+}
+.req_stl{
+    border-bottom: 2px solid black;
+    padding: 0px !important;
+    padding-bottom: 15px !important;
+}
+.req-skil-head{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.text-req{
+    color: #7f7f7f;
+    margin-bottom:0px !important;
+}
+.text-req1{
+    color: black;
+    font-size: 14px;
+}
+.req-det {
+    border-top: 1px solid rgba(0,0,0,.125);
+    background: #f9f9f9 !important;
+    margin-bottom: 0;
+    color: black !important;
+    font-size: 15px;
+    padding: 5px;
+    /* padding-left: 0; */
+    
+}
+.inf-stl{
+    color: #2e6ebe !important;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid transparent !important;
+    border-radius: 20px;
+    padding: 2px 11px;
+    background: #ececec !important;
+    margin-bottom: 0px;
+}
+.req-pro{
+    color: #2e6ebe !important;
+    font-weight: bold;
+    font-size: 15px;  
+}
+.skill-pro{
+    border-right: 2px solid #2e6ebe;
+    text-align: center;
+}
+
+.inteli-search{
+    border-right: 2px solid #2e6ebe;
+}
+
+.multi-skill{
+    color: #848484 !important;
+    border: 1px solid #848484 !important;
+    border-radius: 20px;
+    padding: 3px 18px;
+    font-size: 13px;
+}
+.python-skill{
+    color: white !important;
+    background: #1473e7;
+    border: 1px solid #1473e7 !important;
+    border-radius: 20px;
+    padding: 3px 18px;
+    font-weight: bold;
+}
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.hw{
+    color: #adadad !important;
+    width: 25px;
+    height: 25px;
+}
+.icon-search{
+    width: 17px;
+    height: 17px;
+    color: #495057 !important;
+    position: absolute;
+    top:18px;
+    right: 40%;
+ 
+}
+.cv-pro-img{
+    width:120px;
+    height:150px;
+    border-radius: 8px;
+}
+.cv-title{
+    font-size: 15px;
+    color: #a4a4a4 !important;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+.cv-user-det{
+    font-size: 15px;
+    margin-bottom: -15px !important;
+    margin-top: -10px;
+}
+.cv-user-detail{
+    font-size: 15px;
+   
+}
+.cv-header{
+    font-size: 1rem;
+    color:#4b4b4b !important;
+    font-weight: bold;
+}
+.drp-cv{
+    font-style: italic;
+    font-size: 13px !important;
+}
+.img_emp{
+    width: 60px;
+    height: 60px;
+}
+.head-emp{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.reava{
+    background: #f8f8f8 !important;
+}
+.text-reava{
+    color:#53d0f7 !important;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 0px !important;
+}
+.bor-left{
+    border-left: 1px solid rgba(0,0,0,.125);
+    height: 400px;
+}
+.chat-back{
+    background: #f8f8f8 !important;
+    height: 300px;
+}
+.reava_chat{
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+}
+.reava_inputone{
+    position: absolute;
+    bottom: 105px;
+    width: 35%;
+}
+.reava_inputtwo{
+    position: absolute;
+    bottom: 175px;
+    width: 35%;
+    right: 0px;
+}
+.img-reava{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.input-stl{
+    background: #53d0f7 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 10px !important;
+}
+.input-stl::placeholder{
+    color: white !important;
+     opacity: 1;
+   }
+

@@ -1,0 +1,120 @@
+.container-login100{
+    width: 100%;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.page_stl{
+    width: 300px;
+}
+.input_stl{
+    font-family: Montserrat-Bold;
+    border-radius: 25px !important;
+    padding: 0 30px 0 53px !important;
+    color: #999999 !important;
+}
+.mail_icon{
+    color: #999999;
+    top: 28%;
+    align-items: center;
+    position: absolute;
+    padding-left: 18px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.pwd_icon{
+    color: #999999;
+    top: 42%;
+    align-items: center;
+    position: absolute;
+    padding-left: 18px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.btn_login{
+    font-size: 13px;
+    font-weight: 500;
+    background:#3e56e0 !important;
+    color: white;
+    text-align: center;
+    border-radius: 25px !important;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.req_login_head{
+    color:#3e56e0 !important;
+    text-align: center;
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    margin-bottom: 0 !important;
+}
+.mail_lbl{
+    font-size: 13px;
+    color: #3e56e0 !important;
+    font-weight: 500;
+}
+p{
+    font-size: 13px;
+    color:  #a6a6a6; 
+    font-weight: 500; 
+  }
+  .RSmail_icon{
+    color: #999999;
+    top: 24%;
+    align-items: center;
+    position: absolute;
+    padding-left: 18px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.RSpwd_icon{
+    color: #999999;
+    top: 41%;
+    align-items: center;
+    position: absolute;
+    padding-left: 18px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}

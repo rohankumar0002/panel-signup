@@ -1,0 +1,152 @@
+.container-fluid{
+     background:#f8f8fa !important;   
+}
+.profile{
+    padding: 20px 20px 20px 20px;
+  }
+  
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff !important;
+    /* background-clip: border-box; */
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.btn_int{
+    width: 110px;
+    margin-top: -6px;
+    height: 35px;
+    color: #00adef !important;
+    border-color: #84949b !important;
+}
+.resume{
+    color: #00adef !important;
+    font-size: 14px;
+}
+.img_pro{
+    width: 60px;
+    height: 60px;
+}
+.UsreName{
+    color: #00adef !important;
+    font-size: 25px;
+    font-weight: 400;
+}
+.Pro_con{
+    line-height: 0.3;
+    margin-left: 6px;
+}
+.User_con{
+    line-height: 0.3;
+}
+.login{
+  color: #04d10a !important;
+  }
+.agency{
+  color:  #0c0ce8 !important;
+}
+.reject{
+    color:#fe4543 !important;
+}
+.head_con{
+    font-size: 17px;
+    font-weight: bold;
+    color:#717171 !important; 
+}
+p{
+    font-size: 13px;
+    color:  #717171 !important;
+    font-weight: 500; 
+    
+}
+._con{
+    color: black;
+}
+.exp_con{
+    line-height: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400; 
+    color:#707070;
+    margin-top: 10px;
+}
+.icon{
+    color:  #a6a6a6 !important;  
+}
+.yr{
+    color: #707070 !important;
+    font-size: 11px;
+    height: 0px;
+}
+.align{
+    align-items: center;
+}
+.year_exp{
+    border: 1px solid #ddd !important;
+    background: #f8f8fa !important;
+    margin-bottom: 0;
+    padding: 5px;
+}
+.yrexp{
+    margin-bottom: 20px;
+}
+.c_body{
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+}
+.skills {
+    border: 1px solid #ddd !important;
+    background: #f8f8fa !important;
+    margin-bottom: 0;
+    color: black !important;
+    font-size: 15px;
+    padding: 5px;
+    /* padding-left: 0; */
+    
+}
+.col-md-2.main {
+    padding: 2px;
+}
+.cb_body{
+    margin-bottom: 20px;
+}
+.item_align{
+padding: .60rem !important;
+}
+.per-details {
+    border: 1px solid #ddd;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 10px;
+    height: 70%;
+}
+.Doc{
+    color: #04d10a !important;
+}
+svg#line_2{
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    stroke-dasharray: 2px;
+}
+.resume_screen{
+    right: 38px;
+    position: absolute;
+    top: 8rem;
+}
+.per_bar{
+    font-size: 18px;
+    text-align: center;
+}
+.card-title{
+    color: #717171 !important;
+    font-weight: bold;
+}
+.btn-outline-primary {
+    color: #0fb3f0  !important;
+    border-color: #0fb3f0 !important;
+}

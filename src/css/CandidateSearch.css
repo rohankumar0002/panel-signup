@@ -1,0 +1,107 @@
+.search{
+    color: #00adef;
+  }
+  .main-compo{
+    border: 1px solid #ededef;
+    background: #f8f8fa;
+    border-left: 5px solid #d1d1d1;
+    margin-bottom: 20px;
+  }
+  .stl-body{
+    padding: 15px; 
+  }
+  .pcolor{
+    color: #717171;
+  }
+  .profileImg {
+      height: "100px";
+      width: "100px"
+    }
+  .candidateSearch {
+      border: "none";
+      width: inherit;
+    }
+    .profle_info{
+      display: flex;
+      background: #f1f3f4;
+  }
+  .profile_name{
+      font-size: 18px;
+      color: #12c2f5;
+      font-weight: 500 !important;
+  }
+  .my_card{
+      box-shadow: none;
+      background: #f1f3f4;
+  }
+  .my_exp {
+      font-weight: 500;
+      color: black;
+  }
+  .my_img{
+      height: 29px;
+      padding-bottom: 5px;
+  }
+  .my_imgs{
+      height: 31px;
+      padding-bottom: 5px;
+  }
+  .img_pro{
+      width: 90px;
+      height: auto;
+  }
+
+  .my_card_body{
+      padding:10px 10px 6.8px 0px !important;
+      font-weight: 700;
+  }
+  .my_fa_icons {
+      height: 45.8px;
+      width: 40px;
+      margin: 0 auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .col-md-3.rowodd{
+    background: #f1f3f4;
+  }
+  .my_card.card {
+    background: #f8f8fa;
+  }
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+    left: 110px;
+    top: -145px;
+    overflow: auto;
+    width: 1075px;
+    height: 480px;
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    animation: fade 1s linear;
+  }
+  @keyframes fade {
+    0% { opacity: 0.4 }
+    100% { opacity: 1 }
+  }
+  
+  

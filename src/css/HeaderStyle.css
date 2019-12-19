@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hello{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.headtwo{
+    border-bottom: 1px solid #ddd; 
+
+}
+.links{
+    font-size: 13px !important;
+    font-weight: 600;
+    color: #4f4f4f !important;
+}
+.linksearch{
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: bold;
+}
+.img_achy{
+    width: 35px;
+    height: 35px;
+}
+
+
+.Nactive{
+    border-bottom: 2px solid black;
+    position: relative;
+}
+.search{
+    font-style: italic;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.lan_page{
+    padding-right: 20px !important;
+    padding-left:35px !important;
+}
+.pricing_banner{
+    width: 100%;
+    height: 400px;
+}
+.pric_stl{
+    position: absolute;
+    top: 35%;
+    color: white;
+    right: 33%;
+}
+.mainpagestl{
+    background-color: #f4f4f4;
+}
+.modal_head{
+    color: white;
+    background: black;
+    border-bottom: 5px solid #00aeef !important;
+}
+.logo_stl{
+    width: 50px;
+    height: 50px;
+}
+.time_sch_stl{
+border: 1px solid #ddd !important;
+background: #f8f8fa !important;
+margin-bottom: 0;
+color: black !important;
+font-size: 15px;
+padding: 10px;
+}
+
+body .p-button {
+    margin: 0;
+    color: #ffffff;
+    background-color: #007ad9;
+    border: 1px solid #007ad9;
+    font-size: 14px;
+    -moz-transition: background-color 0.2s, box-shadow 0.2s;
+    -o-transition: background-color 0.2s, box-shadow 0.2s;
+    -webkit-transition: background-color 0.2s, box-shadow 0.2s;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+body .p-component {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.p-fileupload-choose {
+    position: relative;
+    overflow: hidden;
+}
+.p-button {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    text-decoration: none!important;
+    cursor: pointer;
+    text-align: center;
+    zoom: 1;
+    overflow: visible;
+    margin-right: .25em;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.p-component, .p-component * {
+    box-sizing: border-box;
+}
+.p-button-icon-only .p-button-icon-left, .p-button-text-icon-left .p-button-icon-left, .p-button-text-icon-right .p-button-icon-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -.5em;
+    height: 1em;
+}
+body .pi {
+    font-size: 1.25em;
+}
+.p-button-icon-left {
+    left: .5em;
+}
+.p-component, .p-component * {
+    box-sizing: border-box;
+}
+.pi {
+    font-family: primeicons;
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body .p-button.p-button-text-icon-left .p-button-text {
+    padding: 0.429em 3em 0.429em 2.25em;
+}
+.p-button .p-button-text {
+    display: block;
+    line-height: normal;
+}
+.p-fileupload-choose.p-fileupload-choose-selected input[type=file] {
+    display: none;
+}
+.p-component, .p-component * {
+    box-sizing: border-box;
+}
+.p-fileupload-choose input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    direction: ltr;
+    cursor: pointer;
+}
+input[type="file" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+}
+
+.chartt-scrollbar {
+    height: 300px;
+    overflow-y: scroll;
+  }
+  .chartt-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .chartt-scrollbar::-webkit-scrollbar-track {
+    background:#dadada; 
+  }
+  .chartt-scrollbar::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  .reg_main{
+      padding: 5px 40px;
+  }
+
+.bor_stlreg{
+    border-bottom: 2px solid #f1f1f1;
+}
+.btnotp{
+    font-size: 10px !important;
+    padding: 7px 5px !important;
+    font-weight: bold !important;
+}
+.suhead_stl{
+    background-color: #1473e6 !important;
+    color: white !important;
+}
+.sulinks{
+    font-size: 14px !important;
+    font-weight: 500;
+    color: white !important;
+}
+
+.img_su{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,281 @@
+.btn-req{
+    color: #848484 !important;
+    border: 1px solid #848484 !important;
+    border-radius: 20px !important;
+    padding: 2px 23px !important;
+    font-size: 11px !important;
+}
+.img_req{
+    width: 50px;
+    height: 50px;  
+}
+.req_con{
+    margin-left: 13px;
+}
+.mat{
+    margin-top: -10px;
+    text-align: center;
+}
+.pc{
+    color: #1473e6 !important;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+.card-body{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.sec{
+    margin-top: -7px;
+}
+.head{
+  color:  #6c6c6c
+}
+.right_icon{
+    color: rgb(1, 224, 19);
+    border: 2px solid rgb(1, 224, 19);
+    border-color: rgb(1, 224, 19);
+    left: 15px;
+    position: relative;
+    top: -11px;
+    width: 15%;
+}
+.hold_icon{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    color: #fa1568;
+    margin-left: 20px;
+    }
+    .circle_icon{
+        width: 25px;
+        height: 25px;
+        margin-left: 20px;
+        color:#cecdd2;
+        border-radius: 1px solid #cecdd2;
+       
+    }
+    .dot_icon{
+      color:  rgb(1, 224, 19);
+      border: 1px solid;
+     border-radius: 50px;
+    }
+
+    .red_cir{
+        color:  #dc0e10;
+        border: 1px solid  #dc0e10;
+        border-radius: 50px;
+    }
+    .cir_icon{
+        color: #cccccc;
+        border: 1px solid #cccccc;
+        border-radius: 50px;
+      }
+
+    .mail_btn{
+        font-size:12px !important;
+        color: #707070 !important;
+        border-color: transparent !important;
+        background: #f4f1f8 !important;
+        padding:0px 15px 0px 15px !important;
+        margin-left: 5px;
+    }
+    .reqstyle{
+        background-color:#0057ff !important;
+        border-color:#0057ff !important;
+        color: white !important;
+    }
+    .mail{
+        font-size: 11px !important;
+        color: #7a7a7a!important;
+    }
+    .mail_icons{
+        background:#f8f8fa ;
+        padding:0;
+        text-align: center;
+        width: 40px !important;
+        margin-left: 35px;
+    }
+    .int_status{
+        margin-left: 20px;
+    }
+    .success{
+        color:#3abd3d;
+        font-size: 11px;
+        font-weight: 800;
+    }
+    .denger{
+        color: #fe7210;
+        font-size: 11px;
+        font-weight: 800;
+    }
+    .circle_int{
+        width: 15px;
+        height: 15px;
+        color:#3abd3d;
+        border-radius: 1px solid#3abd3d;
+        margin-top: 15px;
+       
+    }
+    .int_time{
+        padding: 5px 8px 5px 8px;
+    }
+    .my_title_head{
+        display: flex!important;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #chartdiv {
+        width: 100%;
+        height: 400px;
+      }
+.mail-first{
+ background: #f8f8f8;
+ padding: 25px;
+ text-align: center;
+}
+.font-int{
+    font-size: 12px !important;
+}
+.confirm_stl{
+    color: #848484 !important;
+    border: 1px solid #848484 !important;
+    border-radius: 17px !important;
+    padding: 0px 12px 2px 12px!important;
+    font-size: 12px !important;
+}
+.int_sch_stl{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+ .img_liveint{
+    width: 70px;
+    height: 40px;  
+    border-radius: 5px;
+ } 
+.can_stl{
+    border-bottom: 3px solid #04b6fd;
+    padding: 0px !important;
+    padding-bottom: 20px !important;
+    color: #04b6fd !important;
+    font-weight: bold;
+}
+.chart-scrollbar {
+    height: 140px;
+    overflow-y: scroll;
+  }
+  .chart-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .chart-scrollbar::-webkit-scrollbar-track {
+    background:#dadada; 
+  }
+  .chart-scrollbar::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+  .sucustom-scrollbar {
+    height: 430px !important;
+    overflow-y: scroll;
+  }
+  .sucustom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+  }
+  .sucustom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  .sucustom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+.ReAva_stl{
+    border-bottom: 3px solid #04b6fd;
+    padding: 0px !important;
+    padding-bottom: 15px !important;
+    color: #04b6fd !important;
+    font-weight: bold;
+}
+.sp_stl {
+    font-size: 11px !important;
+    color:#6c6c6c !important;
+}
+.su_icon_stl{
+    width: 16px;
+    height: 16px;
+    color: gray;
+    position: absolute;
+    right: 35px;
+    margin-top: -25px;
+}
+ .pay_stl{
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 2px 12px;
+    color: #04d84a !important;
+    margin-bottom: 0;
+ }
+
+ .payp_stl{
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 2px 24px;
+    color: #ff7a06 !important;
+    margin-bottom: 0;
+ }
+.licen_stl{
+    color: #46c8f2;
+    border-bottom: 1px solid #46c8f2;
+    font-size: 12px !important;
+}
+.inmail_stl{
+    background:#f7f4f5 ;
+    padding: 14px;
+}
+
+.sureq_stl{
+    background: #f7f4f5;
+    padding: 5px;
+}
+.reqbor_stl{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 12px;
+}
+.filter_icon{
+    color: #2da1e3 !important;
+    background: #ebefff;
+    border-radius: 100%;
+    padding: 9px 12px;
+}
+
+.pencil_icon{
+    color: #0e9e1d !important;
+    background: #dffce4;
+    border-radius: 100%;
+    padding: 9px 12px;
+}
+
+.trash_icon{
+color: #f85050 !important;
+background: #ffebeb;
+border-radius: 100%;
+padding: 9px 12px;
+}
+.details_can{
+    color: #848484 !important;
+    border: 1px solid #848484 !important;
+    border-radius: 20px;
+    padding: 3px 8px 3px 9px;
+    font-size: 10px;
+}
+.inp_stl{
+    font-style: italic;
+    font-size: 13px;
+}
+.addprofile{
+    border: 1px solid;
+    border-radius: 20px;
+}
+.br_stl{
+    border-right: 1px solid;
+}

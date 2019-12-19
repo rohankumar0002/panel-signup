@@ -1,0 +1,144 @@
+.resumet{
+    margin-bottom: 20px;
+}
+.resume-timeline{
+    font-size: 17px;
+    color: #707070 !important;
+    font-weight: bold;
+}
+.month{
+    font-weight: 400;
+    margin-top: -7px;
+    font-size: 12px;
+}
+.col-wid{
+    width:15%;
+}
+.line{
+    border:1px solid #f56b82 !important;
+    border-radius:0 ;
+    width: 95%;
+    margin-left: 20px;
+}
+.circlemarch{
+    border: 3px solid #f56b82 !important;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    background: #f56b82 !important;
+    position: absolute;
+    margin-top: -5px;
+}
+.lineone{
+    border:1px solid  #61ddbb !important;
+    border-radius:0 ;
+    width: 95%;
+    margin-left: 20px;  
+}
+.circleone{
+    border: 3px solid #61ddbb;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    background: #61ddbb !important;
+    position: absolute;
+    margin-top: -5px;
+}
+.linetwo{
+    border:1px solid #f198ce;
+    border-radius:0 ;
+    width: 95%;
+    margin-left: 20px;    
+}
+
+.circletwo{
+    border: 3px solid #f198ce;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    background: #f198ce;
+    position: absolute;
+    margin-top: -5px;
+
+}
+
+.linethree{
+    border:1px solid #b3e081;
+    border-radius:0 ;
+    width: 95%; 
+    margin-left: 20px;     
+}
+
+.circlethree{
+    border: 3px solid  #b3e081;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    background:  #b3e081;
+    position: absolute;
+    margin-top: -5px;
+
+}
+
+.linefour{
+    border:1px solid #b2a4ef;
+    border-radius:0 ;
+    width: 95%; 
+    margin-left: 20px;     
+}
+.circlefour{
+    border: 3px solid   #b2a4ef;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    background:   #b2a4ef;
+    position: absolute;
+    margin-top: -5px;
+
+}
+.circlefive{
+    border: 3px solid   #f198ce;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    background:  #f198ce;
+    position: absolute;
+    margin-top: -5px;
+
+}
+.circlesix{
+    border: 3px solid  #b3e081;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    background:  #b3e081;
+    position: absolute;
+    margin-top: -5px;
+
+}
+.circleseven{
+    border: 3px solid  #b3e081;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    background:  #b3e081;
+    position: absolute;
+    margin-top: -5px;
+
+}
+.loc{
+    color: red !important;
+}
+.map-loc{
+    font-size: 22px;
+    padding: 0px 7px 0px 0px;
+}
+.mt{
+    margin-top:15px
+}
+.comp{
+    color: #a5a5a5 !important;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top :10px;
+}
